@@ -1,0 +1,11 @@
+
+<% for(var i = 0; i < products.length; i++) { %>
+    <tr>
+        <td><%= i + 1 %></td>
+        <td><%= products[i].nomeProduto %></td>
+        <td><%= products[i].categoriaProduto %></td>
+        <td><%= products[i].tipoProduto %></td>
+        <td>R$ <%= products[i].precoProduto %></td>
+       
+    </tr>
+<% } %>
